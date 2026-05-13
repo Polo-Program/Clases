@@ -1,0 +1,45 @@
+class Auto:
+    def __init__(self,marcaInicial, colorInicial, kilometrajeInicial):
+        self.marca = marcaInicial
+        self.color = colorInicial
+        self.km = kilometrajeInicial
+    def mostrar (self):
+        print("Marca:", self.marca)
+        print("Color: ", self.color)
+        print("KM: ", self.km)
+
+objetoJeep = Auto("Ford", "Rojo", 5000)
+
+objetoJeep.mostrar()
+
+class Auto:
+    def __init__(self, marcaInicial, colorInicial, kilometrajeInicial):
+        self.marca = marcaInicial
+        self.color = colorInicial
+        self.km = kilometrajeInicial
+    def mostrar (self):
+        print("Marca: ", self.marca)
+        print("Color: ", self.color)
+        print("KM: ", self.km)
+
+objetoJeep = Auto("Ford", "Rojo", 50000)
+
+objetoJeep.mostrar()
+
+class Moto:
+    def __init__(self, marcaMoto, colorMoto, kilometrajeMoto, precioMoto):
+        self.marca = marcaMoto
+        self.color = colorMoto
+        self.km = kilometrajeMoto
+        self.precio = precioMoto
+    def mostrar (self):
+        print("Marca: ", self.marca)
+        print("Color: ", self.color)
+        print("KM: ", self.km)
+        print("Precio: ", self.precio)
+
+objetoMoto = Moto("Kawasaki", "Verde", 10000, 10000000)
+objetoMoto = Moto("Subaru", "Roja", 10000, 10000000)
+objetoMoto = Moto("Madensa", "Azul", 5000, 200000)
+
+objetoMoto.mostrar()
