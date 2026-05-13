@@ -43,3 +43,29 @@ objetoMoto = Moto("Subaru", "Roja", 10000, 10000000)
 objetoMoto = Moto("Madensa", "Azul", 5000, 200000)
 
 objetoMoto.mostrar()
+
+lass Moto:
+    def __init__(self, marcaMoto, colorMoto, modeloMoto, kilometrajeMoto, precioMoto):
+        self.marca = marcaMoto
+        self.color = colorMoto
+        self.km = kilometrajeMoto
+        self.modelo = modeloMoto
+        self.precio = precioMoto
+
+# LOS EMOJIS SE GENERAN CON WINDOWS + PUNTO (.)
+    def mostrar (self):
+        print("-" * 30)
+        print(f"Marca: ", {self.marca})
+        print(f"Modelo: ", {self.modelo})
+        print(f"Color: ", {self.color})
+        print(f"KM: ", {self.km})
+        print(f"Precio: ", {self.precio})
+        print("-" * 30 + "\n")
+
+objetoMoto = Moto("Kawasaki", "Verde", "CBR1000", 10000, 10000000)
+objetoMoto2 = Moto("Subaru", "Roja", "CBR500" ,10000, 10000000)
+objetoMoto3 = Moto("Madensa", "Azul", "CBR2000", 5000, 200000)
+
+objetoMoto.mostrar()
+objetoMoto2.mostrar()
+objetoMoto3.mostrar()
